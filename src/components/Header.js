@@ -1,14 +1,19 @@
-import React from 'react';
+import React, { useState } from 'react';
 import Logo from './Logo';
 import Navigation from './Navigation';
 import MobileNavButton from './MobileNavButton';
 import './index.css';
 
 const Header = () => {
+    const [isOpen, setIsOpen] = useState(false);
+
+    const toggle = () => setIsOpen(!isOpen);
+
     return (
-        <header className="header">
+        <header className='header'>
             <Logo />
-            <Navigation />
+            <MobileNavButton isOpen={isOpen} onClick={toggle} />
+            <Navigation isOpen={isOpen} />
         </header>
     )
 }
