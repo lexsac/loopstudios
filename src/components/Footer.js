@@ -9,6 +9,7 @@ const Footer = () => {
             <Logo />
             <Navigation />
             <SocialLinks />
+            <p>© 2021 Loopstudios. All rights reserved.</p>
         </>
     )
 }
