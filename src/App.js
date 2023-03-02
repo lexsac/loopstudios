@@ -1,4 +1,4 @@
-import './App.css';
+import './components/index.css';
 import Header from './components/Header';
 import Hero from './components/Hero';
 import InfoSection from './components/InfoSection';
