@@ -1,4 +1,5 @@
 import React from 'react';
+import './styles/Image.css';
 
 const Image = ({ src, alt }) => {
     return (

@@ -1,4 +1,5 @@
 import React from 'react';
+import './styles/HeroImage.css';
 
 const HeroImage = ({ mobileImage, desktopImage, description }) => {
     return (
