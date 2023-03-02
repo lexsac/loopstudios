@@ -1,10 +1,12 @@
 import React from 'react';
 import NavLink from './NavLink';
-import '../styles/NavLinks.css';
+import './index.css';;
 
-const NavLinks = () => {
+const NavLinks = ({ isOpen }) => {
+    const className = `header__nav-links ${isOpen ? 'open' : ''}`;
+
     return (
-        <ul>
+        <ul className={className}>
             <NavLink text={'About'} />
             <NavLink text={'Careers'} />
             <NavLink text={'Events'} />
