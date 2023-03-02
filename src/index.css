@@ -26,6 +26,9 @@
     --fw-regular: 400;
     --fw-light: 300;
 
+    /* letter spacing */
+    --ls-lg: 5px;
+
     /* line height */
     --lh-700: 4.375rem; /* 70px */
     --lh-600: 3rem; /* 48px */
