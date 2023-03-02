@@ -1,6 +1,6 @@
 import React from 'react';
 import Image from './Image';
-import './styles/SocialLink.css';
+import '../styles/SocialLink.css';
 
 const SocialLink = ({ src, alt }) => {
     return (

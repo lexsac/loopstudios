@@ -3,7 +3,7 @@ import Image from './ResponsiveImage';
 import HeadingText from './HeadingText';
 import interactiveImageMobile from '../images/mobile/image-interactive.jpg';
 import interactiveImageDesktop from '../images/desktop/image-interactive.jpg';
-import './styles/InfoSection.css';
+import '../styles/InfoSection.css';
 
 const InfoSection = () => {
     return (

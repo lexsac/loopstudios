@@ -18,7 +18,7 @@ import pocketborealisImageMobile from '../images/mobile/image-pocket-borealis.jp
 import pocketborealisImageDesktop from '../images/desktop/image-pocket-borealis.jpg';
 import soccerteamImageMobile from '../images/mobile/image-soccer-team.jpg';
 import soccerteamImageDesktop from '../images/desktop/image-soccer-team.jpg';
-import './styles/ImageGallery.css';
+import '../styles/ImageGallery.css';
 
 const ImageGallery = () => {
     return (

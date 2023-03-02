@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import './styles/MobileNavButton.css';
+import '../styles/MobileNavButton.css';
 
 const MobileNavButton = () => {
     const [isOpen, setIsOpen] = useState(false);

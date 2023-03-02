@@ -1,5 +1,5 @@
 import React from 'react';
-import './styles/HeadingText.css';
+import '../styles/HeadingText.css';
 
 const HeadingText = ({ text }) => {
     return (
