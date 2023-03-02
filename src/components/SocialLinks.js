@@ -4,7 +4,7 @@ import FacebookIcon from '../images/icon-facebook.svg';
 import TwitterIcon from '../images/icon-twitter.svg';
 import PinterestIcon from '../images/icon-pinterest.svg';
 import InstagramIcon from '../images/icon-instagram.svg';
-import '../styles/SocialLinks.css';
+import './index.css';
 
 const SocialLinks = () => {
     return (

@@ -1,5 +1,5 @@
 import React from 'react';
-import '../styles/ResponsiveImage.css';
+import './index.css';
 
 const ResponsiveImage = ({ mobileImage, desktopImage, description }) => {
     return (
