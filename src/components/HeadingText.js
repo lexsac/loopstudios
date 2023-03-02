@@ -1,9 +1,9 @@
 import React from 'react';
-import '../styles/HeadingText.css';
+import './index.css';
 
 const HeadingText = ({ text }) => {
     return (
-        <h2>{text}</h2>
+        <h2 className="info-section__title">{text}</h2>
     )
 }
 
