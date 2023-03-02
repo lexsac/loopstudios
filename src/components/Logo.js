@@ -1,11 +1,11 @@
 import React from 'react';
 import logo from '../images/logo.svg';
-import '../styles/Logo.css';
+import './index.css';
 
 const Logo = () => {
     return (
         <>
-            <img src={logo} alt='loopstudios logo' />
+            <img className="logo" src={logo} alt='loopstudios logo' width="124" height="24" />
         </>
     )
 }
