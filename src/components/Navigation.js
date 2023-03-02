@@ -1,9 +1,12 @@
-import React from 'react';
+import React, { useState } from 'react';
+import NavLinks from './NavLinks';
 
 const Navigation = () => {
     return (
         <>
-            <p>Navigation</p>
+            <nav>
+                <NavLinks />
+            </nav>
         </>
     )
 }
