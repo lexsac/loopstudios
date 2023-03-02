@@ -7,9 +7,9 @@ import './index.css';
 const Footer = () => {
     return (
         <footer>
-            <Logo className="footer__logo" />
-            <Navigation className="footer__navigation" />
-            <SocialLinks className="footer__social-links"/>
+            <Logo />
+            <Navigation />
+            <SocialLinks />
             <p>© 2021 Loopstudios. All rights reserved.</p>
         </footer>
     )
