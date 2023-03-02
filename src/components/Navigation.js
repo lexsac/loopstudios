@@ -1,18 +1,13 @@
-import React, { useState } from 'react';
-import MobileNavButton from './MobileNavButton';
+import React from 'react';
 import NavLinks from './NavLinks';
 import './index.css';
 
-const Navigation = () => {
-    const [isOpen, setIsOpen] = useState(false);
-
-    const toggle = () => setIsOpen(!isOpen);
+const Navigation = ({ isOpen }) => {
     const className = `header__nav ${isOpen ? 'open' : ''}`;
 
     return (
         <>
             <nav className={className}>
-                <MobileNavButton isOpen={isOpen} onClick={toggle} />
                 <NavLinks isOpen={isOpen} />
             </nav>
         </>
