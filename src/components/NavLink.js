@@ -1,8 +1,11 @@
 import React from 'react';
+import './index.css';
 
 const NavLink = ({ text }) => {
     return (
-        <li>{text}</li>
+        <li className="header__nav-link">
+            {text}
+        </li>
     )
 }
 
