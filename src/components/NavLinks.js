@@ -1,13 +1,14 @@
 import React from 'react';
+import NavLink from './NavLink';
 
 const NavLinks = () => {
     return (
         <ul>
-            <li>About</li>
-            <li>Careers</li>
-            <li>Events</li>
-            <li>Product</li>
-            <li>Support</li>
+            <NavLink text={'About'} />
+            <NavLink text={'Careers'} />
+            <NavLink text={'Events'} />
+            <NavLink text={'Product'} />
+            <NavLink text={'Support'} />
         </ul>
     )
 }
