@@ -1,13 +1,11 @@
 import React, { useState } from 'react';
-import '../styles/MobileNavButton.css';
+import './index.css';
 
-const MobileNavButton = () => {
-    const [isOpen, setIsOpen] = useState(false);
-
-    const toggle = () => setIsOpen(!isOpen);
+const MobileNavButton = ({ isOpen, onClick }) => {
+    const className = `header__btn-toggle ${isOpen ? 'open' : ''}`;
 
     return (
-        <button onClick={toggle}></button>
+        <button onClick={onClick} className={className}></button>
     )
 }
 
