@@ -18,15 +18,15 @@ import pocketborealisImageMobile from '../images/mobile/image-pocket-borealis.jp
 import pocketborealisImageDesktop from '../images/desktop/image-pocket-borealis.jpg';
 import soccerteamImageMobile from '../images/mobile/image-soccer-team.jpg';
 import soccerteamImageDesktop from '../images/desktop/image-soccer-team.jpg';
-import '../styles/ImageGallery.css';
+import './index.css';
 
 const ImageGallery = () => {
     return (
-      <>
+      <div className="image-gallery">
         <HeadingText text={'Our creations'}/>
         <Button text={'See all'}/>
         <p>This is where the images go</p>
-      </>
+      </div>
     );
 };
 
