@@ -1,5 +1,5 @@
 import React from 'react';
-import Image from './ResponsiveImage';
+import ResponsiveImage from './ResponsiveImage';
 import HeadingText from './HeadingText';
 import Button from'./Button';
 import curiosityImageMobile from '../images/mobile/image-curiosity.jpg';
@@ -24,8 +24,17 @@ const ImageGallery = () => {
     return (
       <div className="image-gallery">
         <HeadingText text={'Our creations'}/>
+        <div className="image-gallery__container">
+          <ResponsiveImage mobileImage={deepearthImageMobile} desktopImage={deepearthImageDesktop} description={'Deep Earth'} />
+          <ResponsiveImage mobileImage={nightarcadeImageMobile} desktopImage={nightarcadeImageDesktop} description={'Night Arcade'} />
+          <ResponsiveImage mobileImage={soccerteamImageMobile} desktopImage={soccerteamImageDesktop} description={'Soccer Team VR'}/>
+          <ResponsiveImage mobileImage={gridImageMobile} desktopImage={gridImageDesktop} description={'The Grid'}/>
+          <ResponsiveImage mobileImage={fromaboveImageMobile} desktopImage={fromaboveImageDesktop} description={'From Up Above VR'}/>
+          <ResponsiveImage mobileImage={pocketborealisImageMobile} desktopImage={pocketborealisImageDesktop} description={'Pocket Borealis'}/>
+          <ResponsiveImage mobileImage={curiosityImageMobile} desktopImage={curiosityImageDesktop} description={'The Curiosity'}/>
+          <ResponsiveImage mobileImage={fisheyeMobile} desktopImage={fisheyeDesktop} description={'Make It Fisheye'}/>
+        </div>
         <Button text={'See all'}/>
-        <p>This is where the images go</p>
       </div>
     );
 };
